@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fade In-Out - Auto Play Slide Show</title>
+<script type="text/javascript" src="js/jquery.js"></script>
+<style>
+#show-case
+{
+	box-shadow:1px 1px 5px 2px #0d456d;
+	border-raduius:10px;
+	height:300px;
+	margin:10px auto;
+	width:600px;
+}
+img
+{
+       position:absolute;
+       width:600px;
+       height:300px;
+}
+</style>
+<script>
+$(document).ready(function()
+{
+    $('.img:gt(0)').hide();
+    setInterval(function() {
+        $(".img:first-child").fadeOut(3000).next(".img").fadeIn(3000).end().appendTo("#show-case")
+}, 4000);
+       
+});
+</script>
+</head>
+<body>
+<div id="show-case">
+	<img class="img" src="image_2.jpg">
+	<img class="img" src="books.jpg">
+	
+</div>
+<script>
+$(document).ready(function()
+{
+	$('.img:gt(0)').hide();
+	setInterval(function() {
+		$(".img:first-child").fadeOut(3000).next(".img").fadeIn(3000).end().appendTo("#show-case")
+}, 4000);
+      
+});
+</script>
+</body>
+</html>

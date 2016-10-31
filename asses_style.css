@@ -1,0 +1,56 @@
+
+p{color:green;}
+h1{color:green;}
+body{
+background:url(image_4.jpg) center center fixed;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+table, th , td  {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  padding: 5px;
+}
+table tr:nth-child(odd)	{
+  background-color: #f1f1f1;
+}
+table tr:nth-child(even) {
+  background-color: #ffffff;
+}
+h3{
+color:yellow;
+font: 15px Arial, Helvetica, sans-serif;  
+     
+    position:relative;     
+    left:420px;  
+    top:0px;  
+    width:310px;  
+    padding:20px;  
+    background:black;  
+    text-align:center;  
+    text-transform:uppercase;  
+    letter-spacing:0px;  
+    zoom: 1;  
+    filter: alpha(opacity=50);  
+    opacity: 0.5;    
+}
+
+#quiz-time-left{
+color:yellow;
+font: 15px Arial, Helvetica, sans-serif;  
+     
+    position:relative;     
+    left:0px;  
+    top:0px;  
+    width:310px;  
+    padding:20px;  
+    background:black;  
+    text-align:center;  
+    text-transform:uppercase;  
+    letter-spacing:0px;  
+    zoom: 1;  
+    filter: alpha(opacity=50);  
+    opacity: 1;    
+}

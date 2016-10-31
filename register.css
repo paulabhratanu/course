@@ -1,0 +1,34 @@
+h2{
+color: #00FF99;
+text-align: center;
+}
+p{
+color: #CC0000;
+}
+body{
+background-repeat:no-repeat;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+span{
+color: #FF0033;
+}
+h4
+{
+ color: #CCCCCC;
+ margin-left: 40px;
+ }
+.detail input {
+     margin-left : 5px;
+}
+.detail1 input {
+     margin-left : 29px;
+}
+.detail2 input {
+     margin-left : 5px;
+}
+
+
+

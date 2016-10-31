@@ -1,0 +1,30 @@
+h2{
+color: #00FF99;
+text-align: center;
+}
+p{
+color: #CC0000;
+}
+body{
+background-repeat:no-repeat;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+span{
+color: #FF0033;
+}
+h4
+{
+ color:#CCCCCC;
+}
+.detail
+{
+ margin-right: 60%;
+ margin-top: 5%;
+}
+.detail1
+{
+margin-left: 60%;
+ margin-top: 3px;
