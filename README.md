@@ -1,0 +1,3 @@
+->download all the files as listed and copy it into a folder
+->save the folder into the www folder of your wamp directory
+->run the wamp application and navigate to the folder in which you saved your files and open the home.php.
